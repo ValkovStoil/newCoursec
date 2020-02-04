@@ -1,0 +1,16 @@
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\EssentialTraningTest.dll
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\EssentialTraningTest.pdb
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\EssentialTraning.dll
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\EssentialTraning.pdb
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Programing\EssentialTraning\EssentialTraningTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Programing\EssentialTraning\EssentialTraningTest\obj\Debug\EssentialTraningTest.csprojAssemblyReference.cache
+C:\Programing\EssentialTraning\EssentialTraningTest\obj\Debug\EssentialTraningTest.csproj.CoreCompileInputs.cache
+C:\Programing\EssentialTraning\EssentialTraningTest\obj\Debug\EssentialTraningTest.csproj.CopyComplete
+C:\Programing\EssentialTraning\EssentialTraningTest\obj\Debug\EssentialTraningTest.dll
+C:\Programing\EssentialTraning\EssentialTraningTest\obj\Debug\EssentialTraningTest.pdb

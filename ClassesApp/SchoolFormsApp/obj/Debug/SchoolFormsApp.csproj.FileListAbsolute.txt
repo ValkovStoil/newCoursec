@@ -1,0 +1,13 @@
+C:\Programing\ClassesApp\SchoolFormsApp\bin\Debug\SchoolFormsApp.exe.config
+C:\Programing\ClassesApp\SchoolFormsApp\bin\Debug\SchoolFormsApp.exe
+C:\Programing\ClassesApp\SchoolFormsApp\bin\Debug\SchoolFormsApp.pdb
+C:\Programing\ClassesApp\SchoolFormsApp\bin\Debug\WorkingWithClasses.dll
+C:\Programing\ClassesApp\SchoolFormsApp\bin\Debug\WorkingWithClasses.pdb
+C:\Programing\ClassesApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csprojAssemblyReference.cache
+C:\Programing\ClassesApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.Properties.Resources.resources
+C:\Programing\ClassesApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.GenerateResource.cache
+C:\Programing\ClassesApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.CoreCompileInputs.cache
+C:\Programing\ClassesApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.CopyComplete
+C:\Programing\ClassesApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.exe
+C:\Programing\ClassesApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.pdb
+C:\Programing\ClassesApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.text.resources

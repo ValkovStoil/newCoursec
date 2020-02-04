@@ -1,0 +1,8 @@
+C:\Programing\EssentialTraning\EssentialTraning\bin\Debug\netstandard2.0\EssentialTraning.deps.json
+C:\Programing\EssentialTraning\EssentialTraning\bin\Debug\netstandard2.0\EssentialTraning.dll
+C:\Programing\EssentialTraning\EssentialTraning\bin\Debug\netstandard2.0\EssentialTraning.pdb
+C:\Programing\EssentialTraning\EssentialTraning\obj\Debug\netstandard2.0\EssentialTraning.csproj.CoreCompileInputs.cache
+C:\Programing\EssentialTraning\EssentialTraning\obj\Debug\netstandard2.0\EssentialTraning.AssemblyInfoInputs.cache
+C:\Programing\EssentialTraning\EssentialTraning\obj\Debug\netstandard2.0\EssentialTraning.AssemblyInfo.cs
+C:\Programing\EssentialTraning\EssentialTraning\obj\Debug\netstandard2.0\EssentialTraning.dll
+C:\Programing\EssentialTraning\EssentialTraning\obj\Debug\netstandard2.0\EssentialTraning.pdb
