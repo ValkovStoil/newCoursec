@@ -1,0 +1,6 @@
+C:\Programing\newCoursec\Ex_Files_Code_Clinic_C_Sharp\Exercise Files\Ch01\04\Begin\WeatherData\bin\Debug\WeatherData.dll
+C:\Programing\newCoursec\Ex_Files_Code_Clinic_C_Sharp\Exercise Files\Ch01\04\Begin\WeatherData\bin\Debug\WeatherData.pdb
+C:\Programing\newCoursec\Ex_Files_Code_Clinic_C_Sharp\Exercise Files\Ch01\04\Begin\WeatherData\obj\Debug\WeatherData.csproj.CoreCompileInputs.cache
+C:\Programing\newCoursec\Ex_Files_Code_Clinic_C_Sharp\Exercise Files\Ch01\04\Begin\WeatherData\obj\Debug\WeatherData.dll
+C:\Programing\newCoursec\Ex_Files_Code_Clinic_C_Sharp\Exercise Files\Ch01\04\Begin\WeatherData\obj\Debug\WeatherData.pdb
+C:\Programing\newCoursec\Ex_Files_Code_Clinic_C_Sharp\Exercise Files\Ch01\04\Begin\WeatherData\obj\Debug\WeatherData.csprojAssemblyReference.cache
