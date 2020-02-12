@@ -53,11 +53,9 @@ namespace Tests_WeatherData
             {
                 text.ReadLine(); // ignore 1st line of text, it contains headers.
 
-                // TODO: Implement WeatherData.ReadAll
+                var data = WeatherData.ReadAll(text);
 
-                // Check.That(data.Count()).IsEqualTo(4);
-
-                throw new NotImplementedException();
+                Check.That(data.Count()).IsEqualTo(4);
             }
         }
 
@@ -68,15 +66,13 @@ namespace Tests_WeatherData
             {
                 text.ReadLine(); // ignore 1st line of text, it contains headers.
 
-                //var data = WeatherData.ReadAll(text);
+                var data = WeatherData.ReadAll(text);
 
-                //Check.That(data.Count()).IsEqualTo(70675);
-
-                throw new NotImplementedException();
+                Check.That(data.Count()).IsEqualTo(70675);
             }
         }
 
-        [TestMethod]
+        [TestMethod]    
         public void Test_050_ParseFilteredSampleFile()
         {
             var start = DateTime.Parse("2012-12-31 12:51:48");
@@ -86,11 +82,10 @@ namespace Tests_WeatherData
             {
                 text.ReadLine(); // ignore 1st line of text, it contains headers.
 
-                // TODO: Implement WeatherData.ReadRange
+                var data = WeatherData.ReadRange(text, start, end);
 
-                //Check.That(data.Count()).IsEqualTo(6);
+                Check.That(data.Count()).IsEqualTo(6);
 
-                throw new NotImplementedException();
             }
         }
 
@@ -104,13 +99,25 @@ namespace Tests_WeatherData
             {
                 text.ReadLine(); // ignore 1st line of text, it contains headers.
 
-                // Extract
-                // Transform
-                // Load
 
-                // MathNet.Numerics.Fit.Line(...);
+                var data = from wo in WeatherData.ReadRange(text, start, end) //Extract
+                           select new //Transforming
+                           {
+                               Hours = (wo.TimeStamp - start).TotalHours,
+                               wo.Barometric_Pressure
+                           };
+                var arrX = new List<double>();
+                var arrY = new List<double>();
 
-                throw new NotImplementedException();
+                foreach (var wo in data) //Load
+                {
+                    arrX.Add(wo.Hours);
+                    arrY.Add(wo.Barometric_Pressure);
+                }
+
+                var (intersect, slope) = MathNet.Numerics.Fit.Line(arrX.ToArray(), arrY.ToArray());
+
+                Check.That(slope).IsLessThan(0);
             }
         }
     }
