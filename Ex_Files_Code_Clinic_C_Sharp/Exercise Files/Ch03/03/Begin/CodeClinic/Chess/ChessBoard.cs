@@ -10,17 +10,98 @@ namespace Chess
 
         public bool IsSafe()
         {
-            throw new NotImplementedException();
+            // no two queens may be on the same row
+            var countZero = Board.Count(n => n == 0);
+            var countDistinct = Board.Distinct().Count();
+
+            if (Board.Length != countDistinct + (countZero > 1 ? countZero - 1 : 0))
+            {
+                return false;
+            }
+
+            // no two queens may be on the same diagonal
+            for (int i = 1; i <= 8; i++)
+            {
+                for (int j = i+1; j <= 8; j++)
+                {
+                    if (Board[i - 1] != 0 && Board[j - 1] != 0)
+                    {
+                        var dX = Math.Abs(i - j);
+                        var dY = Math.Abs(Board[i - 1] - Board[j - 1]);
+                        if (dX == dY)
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+
+            return true;
         }
 
         public static bool PlaceQueens(ChessBoard board = null, int column = 0)
         {
-            throw new NotImplementedException();
+            board = board ?? new ChessBoard();
+
+            for (int row = 1; row <= 8; row++)
+            {
+                board.Board[column] = row;
+
+                if (board.IsSafe())
+                {
+                    if (column == 7)
+                    {
+                        return true; // success
+                    }
+                    else
+                    {
+                        var newBoard = new ChessBoard(board);
+                        if(PlaceQueens(newBoard, column + 1))
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                }
+            }
+
+            return false;
         }
 
         public static bool PlaceQueens(List<ChessBoard> solutions, ChessBoard board = null, int column = 0)
         {
-            throw new NotImplementedException();
+            board = board ?? new ChessBoard();
+            solutions = solutions ?? new List<ChessBoard>(92);
+
+            for (int row = 1; row <= 8; row++)
+            {
+                board.Board[column] = row;
+
+                if (board.IsSafe())
+                {
+                    if (column == 7)
+                    {
+                        solutions.Add(new ChessBoard(board));
+                        return true; // success
+                    }
+                    else
+                    {
+                        var newBoard = new ChessBoard(board);
+                        if (PlaceQueens(solutions, newBoard, column + 1))
+                        {
+                            continue;
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                }
+            }
+            return false;
         }
 
         #region Constructors
