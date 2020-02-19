@@ -13,7 +13,7 @@ namespace BinarySearch
             WriteLine("Our array contains:");
             Array.ForEach(array, x => Write($"{x} "));
 
-            Write($"\n\nThe result of a binary search for{theValue} is: ");
+            Write($"\n\nThe result of a binary search for {theValue} is: ");
             WriteLine(binarySearch(array, theValue));
         }
         /// <summary>
