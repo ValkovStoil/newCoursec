@@ -4,3 +4,9 @@ C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch06\06_03\End\LinearSearch\bin\
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch06\06_03\End\LinearSearch\obj\Debug\LinearSearch.csprojResolveAssemblyReference.cache
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch06\06_03\End\LinearSearch\obj\Debug\LinearSearch.exe
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch06\06_03\End\LinearSearch\obj\Debug\LinearSearch.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch06\06_03\End\LinearSearch\bin\Debug\LinearSearch.exe.config
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch06\06_03\End\LinearSearch\bin\Debug\LinearSearch.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch06\06_03\End\LinearSearch\bin\Debug\LinearSearch.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch06\06_03\End\LinearSearch\obj\Debug\LinearSearch.csproj.CoreCompileInputs.cache
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch06\06_03\End\LinearSearch\obj\Debug\LinearSearch.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch06\06_03\End\LinearSearch\obj\Debug\LinearSearch.pdb

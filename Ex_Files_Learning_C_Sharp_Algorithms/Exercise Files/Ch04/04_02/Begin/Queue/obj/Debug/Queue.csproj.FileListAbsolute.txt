@@ -10,3 +10,10 @@ C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch04\04_02\Begin\Queue\bin\Debug
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch04\04_02\Begin\Queue\obj\Debug\Queue.csprojResolveAssemblyReference.cache
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch04\04_02\Begin\Queue\obj\Debug\Queue.exe
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch04\04_02\Begin\Queue\obj\Debug\Queue.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch04\04_02\Begin\Queue\bin\Debug\Queue.exe.config
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch04\04_02\Begin\Queue\bin\Debug\Queue.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch04\04_02\Begin\Queue\bin\Debug\Queue.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch04\04_02\Begin\Queue\obj\Debug\Queue.csprojAssemblyReference.cache
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch04\04_02\Begin\Queue\obj\Debug\Queue.csproj.CoreCompileInputs.cache
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch04\04_02\Begin\Queue\obj\Debug\Queue.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch04\04_02\Begin\Queue\obj\Debug\Queue.pdb

@@ -10,3 +10,10 @@ C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch03\03_02\End\Stack\bin\Debug\S
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch03\03_02\End\Stack\obj\Debug\Stack.csprojResolveAssemblyReference.cache
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch03\03_02\End\Stack\obj\Debug\Stack.exe
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch03\03_02\End\Stack\obj\Debug\Stack.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_02\End\Stack\bin\Debug\Stack.exe.config
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_02\End\Stack\bin\Debug\Stack.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_02\End\Stack\bin\Debug\Stack.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_02\End\Stack\obj\Debug\Stack.csprojAssemblyReference.cache
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_02\End\Stack\obj\Debug\Stack.csproj.CoreCompileInputs.cache
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_02\End\Stack\obj\Debug\Stack.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_02\End\Stack\obj\Debug\Stack.pdb

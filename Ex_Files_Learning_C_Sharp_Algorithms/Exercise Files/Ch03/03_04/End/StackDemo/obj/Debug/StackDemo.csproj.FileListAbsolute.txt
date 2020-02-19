@@ -8,3 +8,9 @@ C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch03\03_04\End\StackDemo\bin\Deb
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch03\03_04\End\StackDemo\bin\Debug\StackDemo.pdb
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch03\03_04\End\StackDemo\obj\Debug\StackDemo.exe
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch03\03_04\End\StackDemo\obj\Debug\StackDemo.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_04\End\StackDemo\bin\Debug\StackDemo.exe.config
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_04\End\StackDemo\bin\Debug\StackDemo.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_04\End\StackDemo\bin\Debug\StackDemo.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_04\End\StackDemo\obj\Debug\StackDemo.csproj.CoreCompileInputs.cache
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_04\End\StackDemo\obj\Debug\StackDemo.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch03\03_04\End\StackDemo\obj\Debug\StackDemo.pdb

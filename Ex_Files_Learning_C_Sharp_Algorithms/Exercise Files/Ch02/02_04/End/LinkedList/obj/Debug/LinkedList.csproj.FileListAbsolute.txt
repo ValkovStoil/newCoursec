@@ -10,3 +10,9 @@ C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch02\02_04\End\LinkedList\bin\De
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch02\02_04\End\LinkedList\obj\Debug\LinkedList.csprojResolveAssemblyReference.cache
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch02\02_04\End\LinkedList\obj\Debug\LinkedList.exe
 C:\Users\Reynald Adolphe\Desktop\Exercise Files\Ch02\02_04\End\LinkedList\obj\Debug\LinkedList.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch02\02_04\End\LinkedList\bin\Debug\LinkedList.exe.config
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch02\02_04\End\LinkedList\bin\Debug\LinkedList.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch02\02_04\End\LinkedList\bin\Debug\LinkedList.pdb
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch02\02_04\End\LinkedList\obj\Debug\LinkedList.csproj.CoreCompileInputs.cache
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch02\02_04\End\LinkedList\obj\Debug\LinkedList.exe
+C:\Programing\newCoursec\Ex_Files_Learning_C_Sharp_Algorithms\Exercise Files\Ch02\02_04\End\LinkedList\obj\Debug\LinkedList.pdb
