@@ -1,0 +1,7 @@
+C:\Programing\newCoursec\StudentsTracker\SchoolTracker\bin\Debug\SchoolTracker.exe.config
+C:\Programing\newCoursec\StudentsTracker\SchoolTracker\bin\Debug\SchoolTracker.exe
+C:\Programing\newCoursec\StudentsTracker\SchoolTracker\bin\Debug\SchoolTracker.pdb
+C:\Programing\newCoursec\StudentsTracker\SchoolTracker\obj\Debug\SchoolTracker.csprojAssemblyReference.cache
+C:\Programing\newCoursec\StudentsTracker\SchoolTracker\obj\Debug\SchoolTracker.csproj.CoreCompileInputs.cache
+C:\Programing\newCoursec\StudentsTracker\SchoolTracker\obj\Debug\SchoolTracker.exe
+C:\Programing\newCoursec\StudentsTracker\SchoolTracker\obj\Debug\SchoolTracker.pdb
