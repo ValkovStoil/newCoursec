@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Util
 {
+    public static class ExtensionMethods
+    {
+        public static int toInt(this string value)
+        {
+            return int.Parse(value);
+        }
+    }
     class Console
     {
         public static string Ask (string question)
@@ -19,7 +26,7 @@ namespace Util
             try
             {
                 System.Console.Write(question);
-                return int.Parse(System.Console.ReadLine());
+                return System.Console.ReadLine().toInt();
             }
             catch (Exception)
             {
