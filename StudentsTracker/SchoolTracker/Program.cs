@@ -19,6 +19,7 @@ namespace SchoolTracker
 
         static void Main(string[] args)
         {
+            Logger.Log("Tracker started");
             PayRoll payroll = new PayRoll();
             payroll.PayAll();
 
@@ -28,6 +29,8 @@ namespace SchoolTracker
             {
                 try
                 {
+                    Logger.Log("Adding new student", priority: 0);
+
                     var newStudent = new Students();
 
                     newStudent.Name = Util.Console.Ask("Student Name: ");
