@@ -7,12 +7,20 @@ using System.Threading.Tasks;
 
 namespace SchoolTracker
 {
+    enum School
+    {
+        Hogwarts,
+        Harvard,
+        MIT
+    }
     class Program 
     {
+        static List<Students> students = new List<Students>();
+
         static void Main(string[] args)
         {
-
-            var students = new List<Students>();
+            PayRoll payroll = new PayRoll();
+            payroll.PayAll();
 
             var adding = true;
 
@@ -25,6 +33,8 @@ namespace SchoolTracker
                     newStudent.Name = Util.Console.Ask("Student Name: ");
 
                     newStudent.Grade = Util.Console.AskInt("Student Grade: ");
+
+                    newStudent.School = (School)Util.Console.AskInt("School Name (type the corresponding number): \n\t 0: Hogwarts High \n\t 1: Harvard \n\t 2: MIT)\n\t");
 
                     newStudent.Birthday = Util.Console.Ask("Student Birthdaty ");
 
@@ -60,6 +70,7 @@ namespace SchoolTracker
             {
                 Console.WriteLine($"Name: {student.Name}, Grade: {student.Grade}");
             }
+            Exports();
         }
 
         static void Import()
@@ -67,26 +78,42 @@ namespace SchoolTracker
             var importedStudent = new Students("Stoil", 80, "birthday", "addres", 12345);
             Console.WriteLine(importedStudent.Name); 
         }
+
+        static void Exports()
+        {
+            foreach (var student in students)
+            {
+                switch (student.School)
+                {
+                    case School.Hogwarts:
+                        Console.WriteLine("Exporting to Hogwarts");
+                        break;
+                    case School.Harvard:
+                        Console.WriteLine("Exporting to Harvard");
+                        break;
+                    case School.MIT:
+                        Console.WriteLine("Exporting to MIT");
+                        break;
+                }
+            }
+        }
     }
 
     class Member
     {
-        public string Name;
-        public string Address;
-        protected int phone;
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public int Phone { get; set; }
 
-        public int Phone
-        {
-            set { phone = value; }
-        }
     }
 
     class Students : Member
     {
-        static public int Count = 0;
+        static public int Count { get; set; } = 0;
 
-        public int Grade;
-        public string Birthday;
+        public int Grade { get; set; }
+        public string Birthday { get; set; }
+        public School School { get; set; }
 
         public Students()
         {
@@ -100,10 +127,5 @@ namespace SchoolTracker
             Address = addres;
             Phone = phoneNumber;
         }
-    }
-
-    class Teacher : Member
-    {
-        public string Subject;
     }
 }
