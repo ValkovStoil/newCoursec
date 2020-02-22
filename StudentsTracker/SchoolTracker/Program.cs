@@ -18,29 +18,43 @@ namespace SchoolTracker
 
             while (adding)
             {
-                var newStudent = new Students();
-
-                newStudent.Name = Util.Console.Ask("Student Name: ");
-
-                newStudent.Grade = int.Parse(Util.Console.Ask("Student Grade: "));
-
-                newStudent.Birthday = Util.Console.Ask("Student Birthdaty ");
-
-                newStudent.Address = Util.Console.Ask("Student Address: ");
-
-                newStudent.Phone = int.Parse(Util.Console.Ask("Student Phone Number: "));
-
-                students.Add(newStudent);
-
-                Students.Count++;
-                Console.WriteLine($"Student Count: {Students.Count}");
-
-                Console.WriteLine("Add another? y/n");
-
-                if(Console.ReadLine() != "y")
+                try
                 {
-                    adding = false;
+                    var newStudent = new Students();
+
+                    newStudent.Name = Util.Console.Ask("Student Name: ");
+
+                    newStudent.Grade = Util.Console.AskInt("Student Grade: ");
+
+                    newStudent.Birthday = Util.Console.Ask("Student Birthdaty ");
+
+                    newStudent.Address = Util.Console.Ask("Student Address: ");
+
+                    newStudent.Phone = Util.Console.AskInt("Student Phone Number: ");
+
+                    students.Add(newStudent);
+
+                    Students.Count++;
+                    Console.WriteLine($"Student Count: {Students.Count}");
+
+                    Console.WriteLine("Add another? y/n");
+
+                    if (Console.ReadLine() != "y")
+                    {
+                        adding = false;
+                    }
                 }
+                catch (FormatException msg)
+                {
+                    Console.WriteLine(msg.Message);
+                }
+                catch (Exception)
+                {
+
+                    Console.WriteLine("Erro adding student, Please try again");
+                }
+
+                
             }
             foreach (var student in students)
             {
