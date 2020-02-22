@@ -66,6 +66,9 @@ namespace SchoolTracker
 
                 
             }
+
+            ShowGrade("Ivan");
+
             foreach (var student in students)
             {
                 Console.WriteLine($"Name: {student.Name}, Grade: {student.Grade}");
@@ -97,6 +100,14 @@ namespace SchoolTracker
                 }
             }
         }
+
+        //Search function
+        static void ShowGrade(string name)
+        {
+            var found = students.Find(student => student.Name == name);
+            Console.WriteLine($"{found.Name}'s Grade {found.Grade}");
+        }
+
     }
 
     class Member
