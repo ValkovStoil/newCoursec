@@ -29,6 +29,7 @@ export class EntriesComponent implements OnInit {
     console.log(entry);
     this.dialog.open(UpdateEntryComponent, {
       data: {
+        Id: entry.Id,
         Description: entry.Description,
         IsExpense: entry.IsExpence,
         Value: entry.Value

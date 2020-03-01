@@ -12,7 +12,7 @@ export class NewEntryComponent {
 
   types: Type[] = [
     { value: true, display: 'Expense' },
-    { value: false, display: 'Income' },
+    { value: false, display: 'Income' }
   ]
 
   constructor(private service: EntryService) { }

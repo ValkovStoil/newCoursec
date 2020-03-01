@@ -1,25 +1,32 @@
 
 <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
   <ng-container matColumnDef="Description">
-    <th mat-header-cell *matHeaderCellDef> Description </th>
-    <td mat-cell *matCellDef="let element"> {{element.Description}} </td>
+    <tr>
+      <th mat-header-cell *matHeaderCellDef> Description </th>
+      <td mat-cell *matCellDef="let element"> {{element.Description}} </td>
+    </tr>
   </ng-container>
   <ng-container matColumnDef="IsExpense">
-    <th mat-header-cell *matHeaderCellDef> Type </th>
-    <td mat-cell *matCellDef="let element"> {{(element.IsExpense) ? 'Expense' : ' Income'}} </td>
+    <tr>
+      <th mat-header-cell *matHeaderCellDef> Type </th>
+      <td mat-cell *matCellDef="let element"> {{(element.IsExpense) ? 'Expense' : ' Income'}} </td>
+    </tr>
   </ng-container>
   <ng-container matColumnDef="Value">
+    <tr>
     <th mat-header-cell *matHeaderCellDef> Value </th>
     <td mat-cell *matCellDef="let element"> {{element.Value}} </td>
+    </tr>
   </ng-container>
   <ng-container matColumnDef="Actions">
-    <th mat-header-cell *matHeaderCellDef> Actions </th>
-    <td mat-cell *matCellDef="let element">
-      <button (click)="updateEntry(element)" mat-raised-button color ="warn">
-      <b>Edit</b>
-      </button>
-    </td>
-
+    <tr>
+      <th mat-header-cell *matHeaderCellDef> Actions </th>
+      <td mat-cell *matCellDef="let element">
+        <button (click)="updateEntry(element)" mat-raised-button color="warn">
+          <b>Edit</b>
+        </button>
+      </td>
+    </tr>
   </ng-container>
 
 

@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\ExpensesClient",
     "\\ExpensesClient\\src",
-    "\\ExpensesClient\\src\\app",
-    "\\ExpensesClient\\src\\app\\footer",
-    "\\ExpensesClient\\src\\app\\interfaces",
-    "\\ExpensesClient\\src\\app\\new-entry"
+    "\\ExpensesClient\\src\\app"
   ],
-  "SelectedNode": "\\ExpensesClient\\src\\app\\new-entry\\new-entry.component.html",
+  "SelectedNode": "\\ExpensesClient\\src\\app\\entry.service.ts",
   "PreviewInSolutionExplorer": false
 }
