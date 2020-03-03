@@ -37,7 +37,7 @@ export class UpdateEntryComponent implements OnInit {
     this.dialogRef.close();
   }
   save() {
-    console.log("save clicked");
+    this.form.value.id = this.id;
     this.service.updateEntry(this.id, this.form.value).subscribe((data) =>
       console.log('Data: ', data));
   }
