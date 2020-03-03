@@ -83,8 +83,8 @@ C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.csprojAss
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.csproj.CopyComplete
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.dll
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.pdb
-C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.Migrations.Initial.resources
-C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.csproj.GenerateResource.cache
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\System.Web.Cors.dll
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\System.Web.Http.Cors.dll
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\System.Web.Http.Cors.xml
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.Migrations.Initial.resources
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.csproj.GenerateResource.cache

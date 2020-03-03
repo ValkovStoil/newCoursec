@@ -54,7 +54,7 @@ namespace ExpensesAPI.Controllers
         [HttpPut]
         public IHttpActionResult UpdateEntry(int id, [FromBody]Entry entry)
         {
-            if (ModelState.IsValid) return BadRequest(ModelState);
+            if (!ModelState.IsValid) return BadRequest(ModelState);
             if (id != entry.Id) return BadRequest();
 
             try
@@ -65,7 +65,7 @@ namespace ExpensesAPI.Controllers
                     if (oldEntry == null) return NotFound();
 
                     oldEntry.Description = entry.Description;
-                    oldEntry.IsExpanse = entry.IsExpanse;
+                    oldEntry.IsExpense = entry.IsExpense;
                     oldEntry.Value = entry.Value;
 
                     context.SaveChanges();

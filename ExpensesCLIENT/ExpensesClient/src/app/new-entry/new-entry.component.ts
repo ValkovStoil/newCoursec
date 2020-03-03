@@ -18,9 +18,9 @@ export class NewEntryComponent {
   constructor(private service: EntryService) { }
 
   entryForm = new FormGroup({
-    description: new FormControl('',Validators.required),
-    isExpense: new FormControl('',Validators.required),
-    value: new FormControl('',[Validators.required, Validators.pattern('\\d+\\.?\\d*')])
+    description: new FormControl('', Validators.required),
+    isExpense: new FormControl('', Validators.required),
+    value: new FormControl('', [Validators.required, Validators.pattern('\\d+\\.?\\d*')])
   })
 
   onSubmit() {

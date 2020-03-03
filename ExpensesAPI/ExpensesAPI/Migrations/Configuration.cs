@@ -20,7 +20,7 @@
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
 
-            context.Entries.Add(new Entry() { Description = "test", IsExpanse = false, Value = 10.11 });
+            context.Entries.Add(new Entry() { Description = "test", IsExpense = false, Value = 10.11 });
         }
     }
 }
