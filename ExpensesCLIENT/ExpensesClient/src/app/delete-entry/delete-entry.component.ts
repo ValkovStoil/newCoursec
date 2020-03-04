@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Route } from '@angular/compiler/src/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { EntryService } from '../entry.service';
 
 @Component({
@@ -18,7 +18,8 @@ export class DeleteEntryComponent implements OnInit {
   id;
 
   constructor(private route: ActivatedRoute,
-              private service: EntryService) { }
+              private service: EntryService,
+              private router: Router) { }
 
   ngOnInit(): void {
     this.id = this.route.snapshot.paramMap.get('id');
@@ -31,10 +32,10 @@ export class DeleteEntryComponent implements OnInit {
   }
 
   cancel() {
-    console.log("Cansel button was clicked");
+    this.router.navigate(['/']);
   }
 
   confirm() {
-    console.log("Confirm button was clicked");
+    this.service.deleteEntry(this.id).subscribe((data) => { console.log(data);})
   }
 }
