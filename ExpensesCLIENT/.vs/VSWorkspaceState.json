@@ -4,9 +4,10 @@
     "\\ExpensesClient",
     "\\ExpensesClient\\src",
     "\\ExpensesClient\\src\\app",
+    "\\ExpensesClient\\src\\app\\delete-entry",
     "\\ExpensesClient\\src\\app\\entries",
     "\\ExpensesClient\\src\\app\\interfaces"
   ],
-  "SelectedNode": "\\ExpensesClient",
+  "SelectedNode": "\\ExpensesClient\\src\\app\\delete-entry\\delete-entry.component.css",
   "PreviewInSolutionExplorer": false
 }
