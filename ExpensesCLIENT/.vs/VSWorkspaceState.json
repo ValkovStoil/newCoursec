@@ -3,8 +3,10 @@
     "",
     "\\ExpensesClient",
     "\\ExpensesClient\\src",
-    "\\ExpensesClient\\src\\app"
+    "\\ExpensesClient\\src\\app",
+    "\\ExpensesClient\\src\\app\\entries",
+    "\\ExpensesClient\\src\\app\\interfaces"
   ],
-  "SelectedNode": "\\ExpensesClient\\src\\app\\entry.service.ts",
+  "SelectedNode": "\\ExpensesClient",
   "PreviewInSolutionExplorer": false
 }
