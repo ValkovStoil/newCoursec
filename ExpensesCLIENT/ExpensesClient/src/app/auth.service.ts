@@ -8,7 +8,6 @@ export class AuthService {
 
   baseUrl: string = 'http://localhost:57091/api/auth/'
 
-
   constructor(private http: HttpClient) { }
 
   register(user) {

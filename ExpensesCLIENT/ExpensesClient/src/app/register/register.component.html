@@ -10,12 +10,11 @@
     </mat-form-field>
     <br />
     <mat-form-field>
-      <input matInput placeholder="Confirm Pasword" formControlName="confrimPassword" />
+      <input matInput placeholder="Confirm Password" formControlName="confrimPassword" />
     </mat-form-field>
     <br />
-    <span ngIf="registerForm.errors?.matchingFields">Passwords do not match</span>
+    <span *ngIf="registerForm.errors?.matchingFields">Passwords do not match</span>
 
     <button mat-raised-button color="primary" [disabled]="!registerForm.valid">Register</button>
-    <button>somthing</button>
   </form>
 </mat-card>

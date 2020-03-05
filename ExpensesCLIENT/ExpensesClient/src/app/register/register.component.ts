@@ -13,21 +13,21 @@ export class RegisterComponent {
   constructor(private fb: FormBuilder) {
 
     this.registerForm = fb.group({
-
       userName: ['', Validators.required],
-      passowrd: ['', Validators.required],
-      confirmPassword: ['', Validators.required]
-    }, { validator: matchingFields('passowrd', 'confirmPassword') })
-
+      password: ['', Validators.required],
+      confrimPassword: ['', Validators.required],
+    }, {
+        validator: matchingFields('password', 'confrimPassword')})
   }
+
   onSubmit() {
-    console.log(this.registerForm.value);
+    console.log(this.registerForm.value)
   }
 }
 
 function matchingFields(field1, field2) {
   return form => {
-    if (form.control[field1].value != form.control[field2].value)
+    if (form.controls[field1].value !== form.controls[field2].value)
       return { matchingFields: true }
   }
 }
