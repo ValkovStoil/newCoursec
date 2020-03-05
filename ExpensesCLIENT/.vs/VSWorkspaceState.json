@@ -4,10 +4,9 @@
     "\\ExpensesClient",
     "\\ExpensesClient\\src",
     "\\ExpensesClient\\src\\app",
-    "\\ExpensesClient\\src\\app\\delete-entry",
-    "\\ExpensesClient\\src\\app\\entries",
-    "\\ExpensesClient\\src\\app\\interfaces"
+    "\\ExpensesClient\\src\\app\\header",
+    "\\ExpensesClient\\src\\app\\register"
   ],
-  "SelectedNode": "\\ExpensesClient\\src\\app\\delete-entry\\delete-entry.component.css",
+  "SelectedNode": "\\ExpensesClient\\src\\app\\header\\header.component.html",
   "PreviewInSolutionExplorer": false
 }
