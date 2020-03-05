@@ -88,3 +88,4 @@ C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\System.Web.Http.Cors.dll
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\System.Web.Http.Cors.xml
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.Migrations.Initial.resources
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.csproj.GenerateResource.cache
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.Migrations.UserAdded.resources

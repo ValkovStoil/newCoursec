@@ -168,6 +168,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AuthenticationController.cs" />
     <Compile Include="Controllers\EntriesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
@@ -179,8 +180,13 @@
     <Compile Include="Migrations\202003031548289_Initial.designer.cs">
       <DependentUpon>202003031548289_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003051309137_UserAdded.cs" />
+    <Compile Include="Migrations\202003051309137_UserAdded.designer.cs">
+      <DependentUpon>202003051309137_UserAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Entry.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -269,6 +275,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202003031548289_Initial.resx">
       <DependentUpon>202003031548289_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003051309137_UserAdded.resx">
+      <DependentUpon>202003051309137_UserAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
