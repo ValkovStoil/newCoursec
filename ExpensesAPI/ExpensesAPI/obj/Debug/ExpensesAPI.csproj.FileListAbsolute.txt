@@ -89,3 +89,11 @@ C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\System.Web.Http.Cors.xml
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.Migrations.Initial.resources
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.csproj.GenerateResource.cache
 C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\obj\Debug\ExpensesAPI.Migrations.UserAdded.resources
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\Microsoft.IdentityModel.Logging.dll
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\Microsoft.IdentityModel.Logging.xml
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Programing\newCoursec\ExpensesAPI\ExpensesAPI\bin\System.IdentityModel.Tokens.Jwt.xml
