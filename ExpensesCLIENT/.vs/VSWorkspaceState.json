@@ -7,6 +7,6 @@
     "\\ExpensesClient\\src\\app\\header",
     "\\ExpensesClient\\src\\app\\register"
   ],
-  "SelectedNode": "\\ExpensesClient\\src\\app\\header\\header.component.html",
+  "SelectedNode": "\\ExpensesClient\\src\\app\\auth.service.ts",
   "PreviewInSolutionExplorer": false
 }
