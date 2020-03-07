@@ -17,5 +17,8 @@ export class LoginComponent {
 
   login() {
     console.log(this.loginData);
+    this.service.login(this.loginData).subscribe((data) => {
+      console.log(data);
+    })
   }
 }
