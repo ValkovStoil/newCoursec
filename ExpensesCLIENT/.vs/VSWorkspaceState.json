@@ -4,9 +4,9 @@
     "\\ExpensesClient",
     "\\ExpensesClient\\src",
     "\\ExpensesClient\\src\\app",
-    "\\ExpensesClient\\src\\app\\header",
-    "\\ExpensesClient\\src\\app\\register"
+    "\\ExpensesClient\\src\\app\\entries",
+    "\\ExpensesClient\\src\\app\\header"
   ],
-  "SelectedNode": "\\ExpensesClient\\src\\app\\auth.service.ts",
+  "SelectedNode": "\\ExpensesClient\\src\\index.html",
   "PreviewInSolutionExplorer": false
 }
